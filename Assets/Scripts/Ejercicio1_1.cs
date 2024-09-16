@@ -12,25 +12,38 @@ public class Ejercicio1_1 : MonoBehaviour
     string mensaje,mensaje2,mensaje3;              // el valor por defecto es ""
     char solucionPuzzle;
 
+    [SerializeField] bool carnetConducir;
+
     void Start()
     {
         //mensaje = "Hola Mundo ";
         //mensaje2 = "Este es el primer videojuego de victor "; 
         //mensaje3 = "Estoy aprendiendo C#"; 
         //Debug.Log(mensaje + mensaje2+mensaje3);
+       //int resultadoRecogido =SumarDosNumeros(8, 2);   // asignale los numeros que vaya a sumar
+       // HacerSupernena(2.4f, 4, "freddy fastbear", 3);
+       
+
+        // meter una estructura dentro de otra 
+        if(carnetConducir ==true)   //si se cumple la condicion se ejecuta el codigo  / se pone && para que se cumplan 2 al mismo tiempo 
+        {
+            Debug.Log(" Puedes conducir porque tienes el carnet ");   // && tiene mas prioridad que el ||
 
 
-
-
-       int resultadoRecogido =SumarDosNumeros(8, 2);   // asignale los numeros que vaya a sumar
-        HacerSupernena(2.4f, 4, "freddy fastbear", 3);
+        }
+        else
+        {
+            Debug.Log(" te jodes y bailas ");
+        }
       
+
     }
 
   
     void Update()
     {
        // Debug.Log("Ha pasado un frame");   //se repite por cada frame 
+
     }
 
     int SumarDosNumeros(int numero1 , int numero2)        // poniendo int en vez de void logras poder sacar datos de aqui
@@ -41,10 +54,9 @@ public class Ejercicio1_1 : MonoBehaviour
     }  
     
 
-    void HacerSupernena(float asucar, int especias, string nombre, int flores)   // plantilla que funciona pero no tiene datos asociados
-    {
-
-    }
+    //void HacerSupernena(float asucar, int especias, string nombre, int flores)   // plantilla que funciona pero no tiene datos asociados
+    //{
+    //}
 
 
 

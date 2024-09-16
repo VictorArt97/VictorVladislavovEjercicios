@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class ejercicios3_4 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] int EXP;
+    int LVL;
     void Start()
     {
+        LVL = 32 + (9* EXP/5);
+        Debug.Log(" Tu nivel segun la experiencia es = " + LVL);
         
     }
 
