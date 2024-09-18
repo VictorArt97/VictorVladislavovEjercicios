@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicios4_1 : MonoBehaviour
+public class Ejercicio4_1 : MonoBehaviour
 {
     [SerializeField] int vase;
     [SerializeField] int altura;

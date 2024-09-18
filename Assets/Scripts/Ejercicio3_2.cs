@@ -2,15 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicios3_4 : MonoBehaviour
+public class Ejercicio3_2 : MonoBehaviour
 {
-    [SerializeField] int EXP;
-    int LVL;
+    [SerializeField] string nombre;
+    // Start is called before the first frame update
     void Start()
     {
-        LVL = 32 + (9* EXP/5);
-        Debug.Log(" Tu nivel segun la experiencia es = " + LVL);
-        
+        Debug.Log("Bienvenido de nuevo "+ nombre);
     }
 
     // Update is called once per frame

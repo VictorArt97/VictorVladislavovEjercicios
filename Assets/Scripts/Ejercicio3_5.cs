@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicios3_5 : MonoBehaviour
+public class Ejercicio3_5 : MonoBehaviour
 {
     [SerializeField] float radio;
     float longitud;

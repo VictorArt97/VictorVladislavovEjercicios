@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicios2_8 : MonoBehaviour
+public class Ejercicio2_8 : MonoBehaviour
 {
     int puntosDeVida = 120;
     void Start()

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicios3_6 : MonoBehaviour
+public class Ejercicio3_6 : MonoBehaviour
 {
     [SerializeField]float kmPorHora;
     float mPorSeg;

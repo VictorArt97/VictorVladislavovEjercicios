@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicios3_1 : MonoBehaviour
+public class Ejercicio3_1 : MonoBehaviour
 {
     [SerializeField] int numeroEntero1;
     [SerializeField] int numeroEntero2;

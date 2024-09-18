@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicio2_6 : MonoBehaviour
+public class Ejercicio2_6 : MonoBehaviour
 {
     int puntos1 =3;
     int puntos2 =4;

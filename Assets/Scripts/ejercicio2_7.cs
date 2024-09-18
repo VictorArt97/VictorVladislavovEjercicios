@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicio2_7 : MonoBehaviour
+public class Ejercicio2_7 : MonoBehaviour
 {
     int oroPorSegundo=7;
     void Start()

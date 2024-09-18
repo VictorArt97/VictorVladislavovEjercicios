@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ejercicios4_2 : MonoBehaviour
+public class Ejercicio4_2 : MonoBehaviour
 {
     [SerializeField] string nombre;
     [SerializeField] string apellido1;
