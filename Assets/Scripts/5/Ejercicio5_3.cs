@@ -4,9 +4,17 @@ using UnityEngine;
 
 public class Ejercicio5_3 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] int numero;
     void Start()
     {
+        if (numero > 0 && numero < 9)
+        {
+            Debug.Log("Tu numero es valido ");
+        }
+        else 
+        { 
+            Debug.Log
+        }
         
     }
 
